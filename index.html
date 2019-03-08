@@ -8,55 +8,55 @@
 </head>
 <body>
   <header class="main-header">
-    <h1 class="main-logo">
-      <a class="main-logo-link"><img src="img/icons/nerds-logo.svg" alt="nerds"><span class="visually-hidden">Магазин Nerds</span></a>
-    </h1>
-    <nav class="main-navigation">
-      <ul>
-        <li><a href="#">Студия</a></li>
-        <li><a href="#">Клиенты</a></li>
-        <li><a href="catalog.html">Магазин</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-    </nav>
-    <div class="cart">
-      <a href="#" class="cart-link">Корзина</a>
+    <div class="wrapper main-header-wrapper">
+      <h1 class="main-logo">
+        <a class="main-logo-link"><img src="img/icons/nerds-logo.svg" alt="nerds"><span class="visually-hidden">Магазин Nerds</span></a>
+      </h1>
+      <nav class="main-navigation">
+        <ul class="main-navigation-list">
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="cart">
+        <a href="#" class="cart-link">Корзина</a>
+      </div>
     </div>
   </header>
   <main class="main">
-    <section class="slider">
-      <h2 class="visually-hidden">Наши возможности</h2>
-      <div class="slide">
-        <div class="slide-block">
-          <p>Долго, дорого,  скрупулезно.</p>
-          <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-          <a href="#" class="button">Узнать больше</a>
+    <div class="slider-wrapper">
+      <section class="slider wrapper">
+        <h2 class="visually-hidden">Наши возможности</h2>
+        <div class="slide">
+          <p class="slide-head">Долго, дорого,  скрупулезно.</p>
+          <p class="slide-description">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+          <div class="slide-button">
+            <a href="#" class="button">Узнать больше</a>
+          </div>
         </div>
-        <div class="slide-img">
-          <img src="img/nerds-index-slide1.png" alt="Три телефона белых" width="760" height="430">
+        <div class="slide display-none">
+          <p class="slide-head">Любим математику как никто другой</p>
+          <p class="slide-description">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+          <div class="slide-button">
+            <a href="#" class="button">Узнать больше</a>
+          </div>
         </div>
-      </div>
-      <div class="slide">
-        <div class="slide-block">
-          <p>Любим математику как никто другой</p>
-          <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-          <a href="#" class="button">Узнать больше</a>
+        <div class="slide display-none">
+          <p class="slide-head">Только ночь,<br> только хардкор</p>
+          <p class="slide-description">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+          <div class="slide-button">
+            <a href="#" class="button">Узнать больше</a>
+          </div>
         </div>
-        <div class="slide-img">
-          <img src="img/nerds-index-slide2.png" alt="Два монитора" width="760" height="430">
+        <div class="slider-nav">
+          <button type="button" class="slider-button currnet-slider-button"><span class="visually-hidden">1 слайд</span></button>
+          <button type="button" class="slider-button"><span class="visually-hidden">1 слайд</span></button>
+          <button type="button" class="slider-button"><span class="visually-hidden">1 слайд</span></button>
         </div>
-      </div>
-      <div class="slide">
-        <div class="slide-block">
-          <p>Только ночь, только хардкор</p>
-          <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-          <a href="#" class="button">Узнать больше</a>
-        </div>
-        <div class="slide-img">
-          <img src="img/nerds-index-slide3.png" alt="Телефон с планшетом" width="760" height="430">
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <section class="advantages">
       <h2 class="visually-hidden">Наши преимущества</h2>
       <div class="adv-block">
