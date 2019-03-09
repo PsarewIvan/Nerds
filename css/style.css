@@ -59,6 +59,32 @@ input[type="radio"].visually-hidden {
   box-shadow: inset 0 3px 0 0 rgba(0, 0, 0, 0.1);
 }
 
+.button-app {
+  background-color: #00ca74;
+}
+
+.button-app:hover,
+.button-app:focus {
+  background-color: #00bc6c;
+}
+
+.button-app:active {
+  background-color: #00aa62;
+}
+
+.button-pres {
+  background-color: #efc84a;
+}
+
+.button-pres:hover,
+.button-pres:focus {
+  background-color: #eab534;
+}
+
+.button-pres:active {
+  background-color: #e5a722;
+}
+
 .main-header {
   background-color: #eee;
 }
@@ -185,6 +211,7 @@ input[type="radio"].visually-hidden {
 
 .slider-wrapper {
   background-color: #eee;
+  margin-bottom: 80px;
 }
 
 .slider-button {
@@ -228,7 +255,151 @@ input[type="radio"].visually-hidden {
   transform: translateX(600px)
 }
 
+.advantages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 80px;
+}
 
+.adv-block {
+  width: 300px;
+  margin-right: 100px;
+  box-sizing: border-box;
+  padding-top: 145px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.adv-block:last-child {
+  margin-right: 0;
+}
+
+.adv-block:nth-of-type(1) {
+  background-image: url(../img/illustration-1.jpg);
+}
+
+.adv-block:nth-of-type(2) {
+  background-image: url(../img/illustration-2.jpg);
+}
+
+.adv-block:nth-of-type(3) {
+  background-image: url(../img/illustration-3.jpg);
+}
+
+.adv-block-title {
+  margin: 20px 0 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+}
+
+.adv-block-dscr {
+  margin: 15px 0 30px;
+  padding: 0;
+  width: 280px;
+}
+
+.studio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-top: 2px solid #eee;
+  padding-top: 75px;
+}
+
+.studio-about {
+  width: 660px;
+}
+
+.studio-about-title {
+  margin: 0 0 30px;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000;
+}
+
+.studio-about-descr {
+  margin: 0 0 40px;
+}
+
+.studio-sub-block-title {
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+}
+
+.studio-about-list {
+  margin: 0;
+  padding: 0 0 0 35px;
+  list-style: none;
+}
+
+.studio-about-list li {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.studio-about-list li:last-child {
+  margin-bottom: 0;
+}
+
+.studio-about-list li::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background-color: #fb565a;
+  top: 10px;
+  left: -35px;
+}
+
+.studio-stat {
+  width: 360px;
+  background-image: url(../img/nerds-illustration.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding-top: 210px;
+}
+
+.studio-stat-title {
+  margin: 35px 0 45px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+.studio-stat-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.studio-stat-list li {
+  width: 110px;
+  margin-right: 5px;
+}
+
+.studio-stat-list li:last-child {
+  margin-right: 0;
+}
+
+.studio-sponsor {
+  width: 1160px;
+}
 
 
 
