@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nerds Write Us</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="modal display-nonee">
+    <h1 class="modal-head">Напишите нам</h2>
+    <form action="https://echo.htmlacademy.ru" method="post" class="modal-form">
+      <div class="modal-block-name">
+        <label for="user-name" class="madal-label">Ваше имя:</label>
+        <input type="text" id="user-name" name="user-name" placeholder="Имя Фамилия" class="modal-input">
+      </div>
+      <div class="modal-block-email">
+        <label for="user-email" class="modal-label">Ваш e-mail:</label>
+        <input type="email" id="user-email" name="user-email" placeholder="email@example.com" class="modal-input">
+      </div>
+      <div class="modal-block-msg">
+        <label for="user-message" class="modal-label">Текст письма:</label>
+        <textarea name="user-message" id="user-message" cols="30" rows="5" placeholder="В свободной форме" class="modal-input"></textarea>
+      </div>
+      <button type="submit" class="button modal-block-button" id="modal-button">Отправить</button>
+    </form>
+  </section>
+</body>
+</html>

@@ -130,7 +130,7 @@
             <p class="write-us-title">NЁRDS DESIGN STUDIO</p>
             <p class="write-us-adress">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
             <p class="write-us-tel">тел. +7 (812) 275-75-75</p>
-            <a href="#" class="button write-us-button">Напишите нам</a>
+            <a href="writeus.html" class="button write-us-button">Напишите нам</a>
           </div>
         </div>
       </div>
@@ -165,20 +165,23 @@
   <section class="modal display-none">
     <h2 class="modal-head">Напишите нам</h2>
     <form action="https://echo.htmlacademy.ru" method="post" class="modal-form">
-      <div class="modal-block">
+      <div class="modal-block-name">
         <label for="user-name" class="madal-label">Ваше имя:</label>
         <input type="text" id="user-name" name="user-name" placeholder="Имя Фамилия" class="modal-input">
       </div>
-      <div class="modal-block">
+      <div class="modal-block-email">
         <label for="user-email" class="modal-label">Ваш e-mail:</label>
         <input type="email" id="user-email" name="user-email" placeholder="email@example.com" class="modal-input">
       </div>
-      <div class="modal-block">
+      <div class="modal-block-msg">
         <label for="user-message" class="modal-label">Текст письма:</label>
-        <textarea name="user-message" id="user-message" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+        <textarea name="user-message" id="user-message" cols="30" rows="5" placeholder="В свободной форме" class="modal-input"></textarea>
       </div>
-      <button type="submit" class="button modal-block" id="modal-button">Отправить</button>
+      <button type="submit" class="button modal-block-button" id="modal-button">Отправить</button>
     </form>
+    <button type="button" class="modal-close">
+      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><path fill="#FB565A" d="M13.328 10.5l7.371-7.371a1.003 1.003 0 0 0 0-1.414L19.285.3a1.003 1.003 0 0 0-1.414 0L10.5 7.672 3.129.301a1.003 1.003 0 0 0-1.414 0L.301 1.715a1.003 1.003 0 0 0 0 1.414L7.672 10.5.301 17.871a1.003 1.003 0 0 0 0 1.414l1.415 1.414a1.003 1.003 0 0 0 1.414 0l7.371-7.371 7.371 7.371a1.003 1.003 0 0 0 1.414 0l1.414-1.414a1.003 1.003 0 0 0 0-1.414L13.328 10.5z"/></svg>
+    </button>
   </section>
 </body>
 </html>
