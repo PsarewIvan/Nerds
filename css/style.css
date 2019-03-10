@@ -156,6 +156,22 @@ input[type="radio"].visually-hidden {
   color: #000;
 }
 
+.cart {
+  position: relative;
+}
+
+.cart-link::after {
+  content: '';
+  display: block;
+  background-image: url(../img/icons/cart-icon.svg);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 3px;
+  left: -40px;
+}
+
 .current-page {
   border-bottom: 2px solid #fb565a;
 }
