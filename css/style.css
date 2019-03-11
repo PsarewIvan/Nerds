@@ -921,7 +921,6 @@ input[type="radio"].visually-hidden {
 
 .filter-button {
   width: 100%;
-  background-color: 
 }
 
 .catalog-section {
@@ -1103,7 +1102,10 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item:hover .item-about,
-.catalog-item:focus .item-about,
+.catalog-item:focus .item-about {
+  display: block;
+}
+
 .catalog-item:focus-within .item-about {
   display: block;
 }
