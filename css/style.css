@@ -201,8 +201,8 @@ input[type="radio"].visually-hidden {
   transition: all 0.2s;
 }
 
-.main-navigation-list li:hover a,
-.main-navigation-list li:focus a,
+.main-navigation-list a:hover,
+.main-navigation-list a:focus,
 .cart-link:hover,
 .cart-link:focus {
   color: #fb565a;
@@ -511,17 +511,17 @@ input[type="radio"].visually-hidden {
   height: 160px;
 }
 
-.friend-logo img {
+.friend-logo {
   opacity: 0.2;
   transition: all 0.2s;
 }
 
-.friend-logo img:hover,
-.friend-logo img:focus {
+.friend-logo:hover,
+.friend-logo:focus {
   opacity: 1;
 }
 
-.friend-logo img:active {
+.friend-logo:active {
   opacity: 0.1;
 }
 
@@ -1201,6 +1201,13 @@ input[type="radio"].visually-hidden {
 
 .modal-error {
   animation: modalError 0.6s;
+}
+
+/*for IE only*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .modal-show {
+    animation: none;
+  }
 }
 
 
